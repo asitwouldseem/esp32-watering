@@ -21,5 +21,6 @@ Project log for an ESP32 controlled watering system.
 - Figure out pump flow rate -- we'll use this to set a default run time in ESPHome.
 - Relays to control solenoid + pump. Could go with a H-bridge, but don't think we need PWM.
 - Industrial design for box -- have seen cylindrical units.
+- Most solenoids seem to run on 12V -- have plenty of sealed buck converters sitting around. Will break this out and have a 12V in and 5V in JST on the PCB.
 
 More to follow! 
