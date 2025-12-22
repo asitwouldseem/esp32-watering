@@ -2859,16 +2859,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 146.05) (xy 71.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af0be1e-7db0-4be8-b33c-94baaacf24b3")
-	)
-	(wire
-		(pts
 			(xy 80.01 49.53) (xy 80.01 50.8)
 		)
 		(stroke
@@ -3079,16 +3069,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 146.05) (xy 71.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fffce2f-9a04-41dd-a6bc-2452065bf0db")
-	)
-	(wire
-		(pts
 			(xy 190.5 46.99) (xy 204.47 46.99)
 		)
 		(stroke
@@ -3146,6 +3126,16 @@
 			(type default)
 		)
 		(uuid "7704653d-c786-4876-8c07-7778376c20aa")
+	)
+	(wire
+		(pts
+			(xy 64.77 151.13) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785708ad-38f7-44ac-842e-bead8477ca31")
 	)
 	(wire
 		(pts
@@ -3559,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 151.13) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f781ac71-4d56-4574-9b6e-f450cd05d375")
+	)
+	(wire
+		(pts
 			(xy 73.66 25.4) (xy 80.01 25.4)
 		)
 		(stroke
@@ -3657,7 +3657,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 71.12 142.24 0)
+		(at 71.12 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3666,7 +3666,7 @@
 		(fields_autoplaced yes)
 		(uuid "0291ed36-d0d3-4dd1-b3ae-d6716dee8121")
 		(property "Reference" "#PWR010"
-			(at 71.12 146.05 0)
+			(at 71.12 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3675,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 71.12 137.16 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 142.24 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 142.24 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 142.24 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6887,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 59.69 146.05 0)
+		(at 59.69 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6896,14 +6896,6 @@
 		(fields_autoplaced yes)
 		(uuid "e39bb2a7-bd60-400c-a608-e9f1acde769c")
 		(property "Reference" "J3"
-			(at 60.325 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Water Level"
 			(at 60.325 143.51 0)
 			(effects
 				(font
@@ -6911,8 +6903,16 @@
 				)
 			)
 		)
+		(property "Value" "Water Level"
+			(at 60.325 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 59.69 146.05 0)
+			(at 59.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 146.05 0)
+			(at 59.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6930,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 59.69 146.05 0)
+			(at 59.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
