@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SR5-12V-200-1C")(type "KiCad")(uri "${KIPRJMOD}/libraries/SR5-12V-200-1C")(options "")(descr ""))
+  (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-esp32-wemos-d1-mini/esp32-wemos-d1-mini.pretty")(options "")(descr ""))
+)
