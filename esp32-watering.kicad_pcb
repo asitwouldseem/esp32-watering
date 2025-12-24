@@ -8667,16 +8667,89 @@
 		(layer "B.SilkS")
 		(uuid "1e628354-ce74-4b72-92de-03fd48ddd719")
 	)
-	(gr_rect
-		(start 121.35 25.1)
-		(end 196.35 80.6)
+	(gr_arc
+		(start 121.35 25.65)
+		(mid 121.511091 25.261091)
+		(end 121.9 25.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "b739e0bb-9fba-4234-8b36-23738b0ff531")
+		(uuid "0c3f476b-4b75-4ba5-b96e-b7ce9cfa3b4b")
+	)
+	(gr_line
+		(start 196.35 80.05)
+		(end 196.35 25.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "42aa3f6f-b9f4-4d6e-bb38-48db0d654277")
+	)
+	(gr_arc
+		(start 195.8 25.1)
+		(mid 196.188909 25.261091)
+		(end 196.35 25.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "46763dc7-e1b2-453a-ab6c-0a6f1c10899e")
+	)
+	(gr_line
+		(start 121.9 25.1)
+		(end 195.8 25.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7592514e-d5c3-41cf-b04f-827adaea37c0")
+	)
+	(gr_line
+		(start 121.9 80.6)
+		(end 195.8 80.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "93cfb340-8daf-47f9-bbc0-2522daa2f0fd")
+	)
+	(gr_arc
+		(start 196.35 80.05)
+		(mid 196.188909 80.438909)
+		(end 195.8 80.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b0bfc404-eb61-4afe-b94d-9a5844ed217f")
+	)
+	(gr_line
+		(start 121.35 25.65)
+		(end 121.35 80.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d2ad9d90-60d3-4fd0-b8d3-9ad1fbbffc1d")
+	)
+	(gr_arc
+		(start 121.9 80.6)
+		(mid 121.511091 80.438909)
+		(end 121.35 80.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e5f62784-7636-4c9b-b70b-69275c142a2c")
 	)
 	(gr_text "ESP32 House Plant \nWatering Controller\nRev 1.1"
 		(at 137.9 45 90)
