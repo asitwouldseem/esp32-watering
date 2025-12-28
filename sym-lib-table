@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-esp32-wemos-d1-mini/esp32-wemos-d1-mini.kicad_sym")(options "")(descr ""))
   (lib (name "SR5-12V-200-1C")(type "KiCad")(uri "${KIPRJMOD}/libraries/SR5-12V-200-1C/SR5-12V-200-1C.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-10-06_03-42-38")(type "KiCad")(uri "${KIPRJMOD}/libraries/tsr-2433/2025-10-06_03-42-38.kicad_sym")(options "")(descr ""))
 )
