@@ -41,3 +41,4 @@ fp-info-cache
 .DS_Store
 /libraries
 esp32-watering.kicad_dru
+/production
