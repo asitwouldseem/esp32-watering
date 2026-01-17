@@ -9081,7 +9081,19 @@
 		(layer "Edge.Cuts")
 		(uuid "e5f62784-7636-4c9b-b70b-69275c142a2c")
 	)
-	(gr_text "ESP32 House Plant \nWatering Controller\nRev 1.4"
+	(gr_text "-"
+		(at 138.5 71.25 0)
+		(layer "B.SilkS")
+		(uuid "069bf0da-cc9b-40ef-a8f0-f8a7ec05406a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "ESP32 House Plant \nWatering Controller\nRev 2.1"
 		(at 137.9 45 90)
 		(layer "B.SilkS")
 		(uuid "34381488-1265-4fcf-9dfe-778882b6cfd3")
@@ -9091,6 +9103,54 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "+"
+		(at 125.75 71.5 180)
+		(layer "B.SilkS")
+		(uuid "4b22b338-2340-4718-870e-71196c707257")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "+"
+		(at 141.25 71.25 0)
+		(layer "B.SilkS")
+		(uuid "6c3c398a-96d1-4344-bdbe-da27194e9a6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "-"
+		(at 131 71.5 180)
+		(layer "B.SilkS")
+		(uuid "76d26471-9c25-435e-a3b7-7f1c8eefdd16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "D"
+		(at 128.5 71.5 180)
+		(layer "B.SilkS")
+		(uuid "ea6f4c6a-6a4e-46df-abe2-e5705311b883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left mirror)
 		)
 	)
 	(segment
